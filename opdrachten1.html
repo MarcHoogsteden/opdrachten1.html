@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdrachten W1 HTML</title>
+</head>
+<body style="max-width: 1200px; margin: 0 15%;">
+    <p>1.<br>	Het verschil tussen internet en het World Wide Web</p>
+    <p>Het internet is de technische infrastructuur waarop het WWW berust; servers, kabels, draadloze verbindingen (satelliet, telefoon), computers.
+        Het WWW bestaat uit alle opgeslagen informatie die middels het internet bereikbaar is.<br>
+        Mijn vergelijking:
+    </p>
+    <ul>
+        <li>Het internet is als een bibliotheek: het gebouw, de boekenkasten
+        </li>
+        <li>Het WWW zijn de te lenen boeken en andere materialen.
+        </li>
+    </ul>
+
+
+    <p>2.<br>	
+        HTML (hypertext Markup Language) is een taal waarmee je een pagina aan indelen en deels kunt opmaken. 
+        D.m.v. het meegeven van coderingen aan paginaelementen kan er worden meegegeven hoe een internetbrowser 
+        een internetpagina moet tonen wat de structuur betreft.
+        De tekst wordt opgedeeld in titels, paragrafen en andere elementen. Voor een deel hebben deze alle een default styling. HTML is niet dynamisch.
+    </p>
+    <p>
+        CSS (Cascade Style Sheet) geeft de browser mee hoe elementen van een internetpagina opgemaakt moeten worden. Styling als kleur, textopmaak en grootte van een element kan via CSS worden bepaald. De browser interpreteert een CSS van boven naar beneden. Dus de laatste styling mbt tot een element die een browser tegenkomt wordt gebruikt. Als op regel 1 staat dat een woord vetgedrukt moet zijn, en op regel twee staat dat datzelfde woord niet vetgedrukt moet zijn, dan wordt het woord niet vetgedrukt weergegeven.
+        Javascript is een programmeertaal waarmee elementen van een internetpagina dynamisch kunnen worden gemaakt. Het voegt interactiviteit toe aan de webpagina. In tegenstelling tot HTML en CSS kan het ervoor zorgen dat er iets gebeurd als een gebruiker ergens op klikt, een bepaalde toets indrukt. Of dat een gebruiker iets kan invullen.
+        Javascript wordt in de browser uitgevoerd en is dus client-side.
+    </p>
+
+    <p>3.<br>
+        HTML-elementen geven structuur aan een webpagina. Een element bestaat uit een begin- en een eindtag. Zo’n tag bestaat uit twee haakjes 
+        die de naam van het element omsluiten. De eindtag heeft heeft voor de naam een slash forward staan. 
+    </p>
+
+    <p>4.<br>	
+        openingstag- body -sluitingstag geeft aan dat wat er binnen deze tags staat is opgemaakt in HTML.<br>
+        <head> In het head gedeelte wordt informatie aan de browser meegegeven over de standaardopmaak van de pagina. 
+        Onder andere welke lettertekens worden gebruikt, eventueel wordt hier styling geplaatst of wordt er verwezen naar een stylingsheet of naar bootstrap.
+        openingstag- body -sluitingstag  geeft aan dat vanaf  dit punt de webpagina begint. Binnen de body wordt de pagina gestructureerd en de inhoud van de pagina geplaatst.
+    </p>
+
+    <p>5.<br>
+        Attributen geven extra informatie over de opmaak van een element mee.
+        font-style: strong>  Vetgedrukt<br>
+        font-color: waarde  kleur van de letter<br>
+        height: waarde;	 hoogte van het element<br>
+        font-size: waarde;  karaktergrootte<br>
+        opacity: waarde  mate van doorschijning<br>    
+    </p>    
+
+    <p>6.<br>
+        Een goede HTML strucuur maakt de webpagina leesbaarder. Maar ook: een goede HTML-strucuur maakt aan zoekmachines duidelijk wat 
+        voor een inhoud de webpagina heeft. Dit is belangrijk om gevonden te worden door diegenen die jou informatie zoeken.<br>
+         Daarnaast wordt de structuur ook gebruikt om de pagina op de een of andere manier weer te geven voor mensen met een handicap.
+    </p>
+
+    <p>7.<br>
+        Een inline block neemt alleen de ruimte in die het nodig heeft. Een block-element pakt de hele regel.<br>
+        Een block-element begint altijd op een nieuwe regel. Een inline-element hoeft dat niet.
+    </p>
+
+    <p>8.	Nesting is het plaatsen van elementen binnen andere elementen. </p>
+    <!--
+        <HTML>
+            <body>
+                <h1></h1>
+                <p></p>
+                <p></p>
+            </body>
+        <HTML>
+    -->
+
+    <p>9.<br>
+        Bij HTML semantics wordt de opmaak stijl van elementen losgekoppeld van de structurele betekenis. De structurele betekenis staat voorop. 
+        Vervolgens kunnen we deze eventueel nog stylen.<br>
+        Voor mensen is een geode structuur belangrijk, maar voor zoekmachines en webcrawlers nog veel meer. 
+        Deze kunnen niet door een styling heenkijken. We moeten dus de elementen gebruiken die bij een bepaalde structurele inhoud passen. 
+        Voor een titel pakken we dus een header-element. En niet een paragraaf-element met een groter lettertype.
+    </p>
+
+    <p>10.<br>
+        <ul>
+            <li>header: avigatie links   </li>
+            <li>main: het hoofdartikel, het belangrijkste onderwerp</li>
+            <li>footer: contactinformatie, nav-links</li>
+            <li>nav: een containertag voor een groep navigatie links</li>
+            <li>section: geeft een nieuw onderdeel aan.</li>
+            <li>aside: een ander, minder belangrijk artikel dan 'main'</li>
+            <li>article: een artikel, minder belangrijk dan het hoofdartikel</li>
+        </ul>    
+
+    <p>11.	Gebruikers en zoekmachines d.m.v. headers (snel) een idee krijgen van de inhoud.</p>
+    <p>12.	 ___</p>
+    <p>12.	 ___</p>
+    <p>14.	 Als je alle tekst in één paragraaf stopt, dan loopt de tekst door zonder pauzes of alinea-indeling.</p>
+
+<br><br><br><br>
+
+        <!--DEEL 2-->
+
+
+    <!-- absolute path, verwijst naar een precieze lokatie --> 
+        <img src="https://www.wur.nl/upload_mm/d/1/4/131d7bfb-61b5-4024-894d-d0a95ea44570_shutterstock_17919808_boom_solitair_eik_landschap_strategisch_plan_LR_181654bb_750x400.jpg"alt="boom.jpeg">
+        <br>
+    <!== i.g.v. een relative path staat de afbeelding op dezelfde server als de indexpagina. Dat kan dus wel in een andere map zijn. -->
+        <img src="boom.jpg" alt="boom.jpeg">
+        <br>
+
+    <!--autoplay en repeat eruit gehaald. Ik werd er een beetje gek van.-->
+
+<br><br><br>
+
+        <p>autoplay en repeat eruit gehaald. Ik werd er een beetje gek van.</p>
+
+         <audio controls>
+        <source src="grenade.mp3" type="mp3">
+            Your browser does not support this audiofile
+        </audio>
+        <br>
+        <P>Door het geven van een source tag kan je een browser keuze geven uit verschillende audio-formaten</p>
+
+        <br><br><br>
+
+
+    <div>
+        <a href="https://tweakers.net/" target="_self">target = self</a><br>
+        <a href="https://tweakers.net/" target="_blank">target = blank</a><br>
+        <a href="https://tweakers.net/" target="_parent">target = parent</a><br>
+        <a href="https://tweakers.net/" target="_top">target = top</a><br>
+    </div>
+
+<br><br><br>
+
+    <video width="320" height="192" autoplay loop controls><source 
+            src="RealisticEarthSpinninginSpaceVidevo.mov" 
+            type="mov">Uw browser ondersteunt het formaat niet
+    </video>
+
+<br><br><br>
+
+ 
+    <h2>Opdracht 2-8</h2>
+    <div>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <br>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+                <ol>
+                    <li>sub item 1</li>
+                    <li>sub item 2</li>
+                </ol>
+            <li>item 3</li>
+        </ol>
+        <br>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+                <ul>
+                    <li>sub item 1</li>
+                    <li>sub item 2</li>
+                </ul>
+            <li>item 3</li>
+        </ul>
+
+<br><br><br>
+
+        <span><h2 id="opdracht2-9">Opdracht 2-9</h2></span> <span><h1>Animals</h1></span>
+        <ul>
+            <li><a href="#Tigers">Tigers</a></li>
+            <li><a href="#Lions">Lions</a></li>
+            <li><a href="#Monkeys">Monkeys</a></li>
+            <li><a href="#Hippopotamus">Hippopotamus</a></li>
+        </ul> 
+    </div>
+
+<br><br><br>
+
+<!--DEEL 3-->
+<hr>
+
+    <h2>Opdracht 3-1</h2>
+    <p> Als je een random text op een button plaatst weten de mensen niet wat de functie van de button is.
+        Als je erop drukt wordt wel de functie uitgevoerd die aan de button is meegegeven, bijvoorbeeld "submit".</p>
+    <div>
+        <form action="" method="get"
+        <label for="Achternaam">Voer uw achternaam in</label><br>
+        <input type="text" name="gebruikersnaam"><br>
+        <label for="Voornaam">Voer uw voornaam in</label><br>
+        <input type="text" name="Voornaam"><br><br>
+        <button type="submit">verzend</button><br><br>
+    </div>
+
+    <br><br><br>
+
+    <h2>Opdracht 3-2</h2>
+    <div>
+    
+        <label for="keuze1">Keuze 1</label>"
+        <input type="radio" id="keuze1" name="keuze 1"><br><br>
+        <label for="keuze2">Keuze 2</label>
+        <input type="checkbox" id="keuze2" name="keuze2" value="keuze2"><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="reset" id="reset" name="reset"><br><br>
+        <label for="date">Datum invoeren</label>
+        <input type="date" id="date" name= date><br><br>
+        <label for="search">Zoekopdracht</label>
+        <input type="search" id="search" name="search"><br><br>
+        <label for="time">Voer de tijd in</label>
+        <input type="time" id="time" name="time>"<br><br>
+        <input type="hidden" id="hidden" name="hidden"><br><br>
+        <label for="hidden">Dit is verborgen</label><br><br>
+        <label for="email">Voer uw emailadres in</label>
+        <input type="email" id="email" name="email"><br><br>
+    </div>
+
+    <br><br><br>
+    <hr>
+
+    <div>
+        <p><i>onderstaande alinea's horen bij <a href="#opdracht2-9">opdracht2-9</a></p></p>
+        <h3 id="Tigers">Tigers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Officiis numquam vero, quas itaque repellendus autem reprehenderit facere magnam <br>
+            voluptatum doloribus inventore rem quia! Expedita est nulla quam! Facere, ex nemo?</p>
+        
+            <p><i>onderstaande alinea's horen bij <a href="#opdracht2-9">opdracht2-9</a></p></p>
+
+        <h3 id="Lions">Lions</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Officiis numquam vero, quas itaque repellendus autem reprehenderit facere magnam <br>
+            voluptatum doloribus inventore rem quia! Expedita est nulla quam! Facere, ex nemo?</p>
+        
+        <p><i>onderstaande alinea's horen bij <a href="#opdracht2-9">opdracht2-9</a></p></p>
+
+        <h3 id="Monkeys">Monkeys</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Officiis numquam vero, quas itaque repellendus autem reprehenderit facere magnam 
+            voluptatum doloribus inventore rem quia! Expedita est nulla quam! Facere, ex nemo?</p>
+        
+            <p><i>onderstaande alinea horen bij <a href="#opdracht2-9">opdracht2-9</a></p></p>
+
+        <h3 id="Hippopotamus">Hippopotamus</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Officiis numquam vero, quas itaque repellendus autem reprehenderit facere magnam <br>
+            voluptatum doloribus inventore rem quia! Expedita est nulla quam! Facere, ex nemo?</p>
+    </div>
+<hr>
+<br><br><br>
+
+    <h2>Opdracht 3-4</h2>
+    <fieldset style="background-color: lightgrey;"><legend>persoonsgegevens</legend>
+        <label for=name>Achternaam</label>
+        <input type="text" name="name"value="name">
+        <br><br>
+        <label for="surname">Voornaam</label>
+        <input type="text" name="surname" value="surname">
+        <br><br>
+        <label for="birthday">Geboortedatum</label>
+        <input type="date" name="birthday" value="birthday">
+        <br><br>
+        <label for="male">M:</label>
+        <input type="radio" name="male" value="male">
+        <label for="female">V:</label>
+        <input type="radio" name="female" value="female">
+        <br><br>
+        <label for="postcode">Postcode</label>
+        <input type="text" name="postcode" value="postcode">
+        <br><br>
+        <label for="adres">Adres</label>
+        <input type-"text" name="adres" value="adres">
+</fieldset>
+<input type="submit" id="submit" name="submit">
+<input type="reset" id="reset" name="reset">
+
+<br><br><br>
+
+<h2>Opdracht 3-5</h2>
+<label for="zanger">Kies je favoriete zanger:</label>
+
+<select name="zangers" id="zanger">
+  <option value="Ian">Ian Gillan</option>
+  <option value="Rob">Rob Halford</option>
+  <option value="Bruce">Bruce Dickinson</option>
+  <option value="Steve">Steve Perry</option>
+</select> 
+
+<br><br>
+<h2>Opdracht 3-6</h2>
+<p>Een dropdownlist zou ik gebruiken als er veel keuzes zijn. dmv. een dropdownlist blijft het visueel rustiger. 
+    Een nadeel is dat niet iedereen weet hoe een dropdownmenu werkt.</p>
+<p>Radiobuttons zou ik gebruiken als er uit meerdere opties slechts een optie gekozen kan worden. 
+    Het voordeel van radiobuttons is dat ze heel overzichtelijk zijn.</p>
+<p>Checkboxes zou ik gebruiken als er uit meerder opties meerder keuzes mogelijk moeten zijn. 
+    Of als er maar één optie is, bijvoorbeeld akkoord met gebruikersvoorwaarden o.i.d. 
+    Ook checkboxes zijn overzichtelijk en makkelijk te begrijpen voor de gebruiker.</p>
+<br><br>
+
+
+    <h2>Opdracht 3-7</h2>
+    <fieldset style="background-color: rgb(162, 240, 240)"><legend>Techgrounds sport</legend>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Uw naam:</label></td>
+                    <td><input type="text" name="name"</td>
+                </tr>
+                <tr>
+                    <td><p>Bent u lid van de club?</p></td>
+                    <td>
+                        <label for="ja">Ja</label>
+                        <input type="radio" id="ja" value="ja">
+                        <label for="nee">Nee</label>
+                        <input type="radio" id="nee" value="nee">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Uw emailadres:</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><p>Welke sport wilt u beoefenen?</p></td>
+                    <td><select name="sport" id="sport">
+                        <option value="tafeltennis">tafeltennis</option>
+                        <option value="badminton">badminton</option>
+                        <option value="squash">squash</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="date">Datum en tijd invoeren</label></td>
+                    <td><input type="date" id="date" name= date>
+                    <input type="time" id="time" name= time>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hierbij ga ik akkoord met de voorwaarden</td>
+                    <td><input type="checkbox" id="akkoord"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">verzend</button></td>
+                </tr>
+
+            </table>
+        </form>
+    </fieldset>
+
+<br><br><br>
+
+    <h2>Opdracht 3-8</h2>
+    <fieldset style="background-color: rgb(197, 223, 240);"><legend>Boekreservering</legend>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Uw naam:</label></td>
+                    <td><input type="text" name="name" value="name"></td>
+                </tr>
+                <tr>
+                    <td><label="telnum">Telefoonnummer:</label></td>
+                    <td><input type="text" name="telnum" value="telefoonnummer"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Uw e-mailadres:</label></td>
+                    <td><input type="email" name="email" value="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="title">Titel:</label></td>
+                    <td><input type="text" name="title" value="titel"></td>
+                </tr>
+                <tr>
+                    <td><label for="aantalboeken">Aantal boeken:</td>
+                    <td><select name="aantalboeken id="aantalboeken">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value="Verzend"></td>
+
+                </tr>
+
+            </table>
+        </form>
+    </fieldset>
+<br><br><br>
+
+    <h2>Opdracht 3-9</h2>
+
+    <fieldset  style="background-color: rgb(251, 216, 221);"><legend>Autoreservering</legend>
+        <form style="background-color: rgb(251, 216, 221);" action="Techgrounds-form.html" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Voornaam</label></td>
+                    <td><input type ="text" name="voornaam"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Achternaam</label></td>
+                    <td><input type = "text" name="achternaam"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Geboortedatum:</label></td>
+                    <td><input type="text" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td><label for="license">Soort rijbewijs:</label></td>
+                    <td><label for="A">A</label><input type="checkbox" id="license"></td>
+                    <td><label for="B">B</label><input type="checkbox" id="license"></td>
+                    <td><label for="C">C</label><input type="checkbox" id="license"></td>
+                    <td><label for="none">geen</label><input type="checkbox" id="license"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="periode">van - tot</label></td>
+                    <td><input type="date" id="ophalen" name= ophalen><br><br></td>
+                    <td><input type="date" id="terugbrengen" name= terugbrengen><br><br></td>
+
+                </tr>
+                <tr>
+                    <td><label for="autokeuze">Welke auto</label></td>
+                    <td><select name="keuze" id="keuze"</td>
+                        <option value="Ford Taunus">Ford Taunus</option>
+                        <option value="Ford Escort">Ford Escort</option>
+                        <option value="Ford Puma">Ford Puma</option>
+                        <option value="Ford Fiesta">Ford Fiesta</option>
+                        <option value="Ford Focus">Ford Focus</option>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="afkoop":>Eigen risico?</label><br>
+                        <label for="ja":>JA</label>
+                        <input type="radio" id="ja" name="ja">
+                        <label for="nee":>NEE</label>
+                        <input type="radio" id="nee" name="nee">    
+                    </td>       
+                </tr>
+                <tr>
+                    <td><label for="voorwaarden">Ik ga akkoord met de voorwaarden</label></td>
+                    <td><input type="checkbox" id="voorwaarden"></label></td>
+                    <br><br><br>
+            </table>
+        </form>
+        <fieldset>     
+        <textarea>Uw handtekening</textarea>
+        </fieldset>
+    </fieldset>
+
+<br><br><br>
+
+    <h2>Opdracht 3-11</h2>
+    <fieldset style="width: 350px; background-color: lightgrey;">
+        <table>
+            <tr>
+                <Thead>
+                    <th>Voornaam</th>
+                    <th>Achternaam</th>
+                    <th>Leeftijd</th>
+                    <th>Telefoonnr</th>
+                </Thead>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>DOe</td>
+                <td>41</td>
+                <td>+31 123456789</td>
+            </tr>
+            <tr>
+                <td>Steven</td>
+                <td>Smith</td>
+                <td>32</td>
+                <td>+31 123456789</td>
+            </tr>    <tr>
+                <td>Alexander</td>
+                <td>Beave</td>
+                <td>16</td>
+                <td>+31 123456789</td>
+            </tr>
+        </table>
+    </fieldset>
+
+<br><br><br>
+
+    <h2>Opdracht 3-12</h2>
+    <fieldset style="width: 600px; background-color: lightgrey;">
+        <table>
+            <tr>
+                <Thead>
+                    <th>MA</th>
+                    <th>DI</th>
+                    <th>WO</th>
+                    <th>DO</th>
+                    <th>VR</th>
+                </Thead>
+            </tr>
+            <tr>
+                <td>Afspraak met tandarts</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Sporten</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Huiswerk maken</td>
+                <td>Werken</td>
+                <td>Werken</td>
+                <td></td>
+            </tr>    <tr>
+                <td>Afspraak met tandarts</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Werken bij vrienden</td>
+            </tr>
+        </table>
+    </fieldset>
+<br><br><br>
+    <h2>Opdracht 3-13</h2>
+    <p>Met het attribuut 'colspan'kan je aangeven hoeveel kolommen een 'CEL' breed moet zijn</p>
+    <p>Met het attribuut 'rowspan'kan je aangeven hoeveel rijen een 'CEL' hoog moet zijn</p>
+    <fieldset style="width: 600px; background-color: lightgrey;">
+        <table style="width: 600px;">
+            <tr>
+                <Thead>
+                    <th></th>
+                    <th>Sport</th>
+                    <th colspan="2">Aantal recreanten</th>
+                    <th colspan="2">Aantal competitiespelers</th>
+                    <th>Totaal deelnemers</th>
+                </Thead>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Badminton</td>
+                <td colspan="2">10</td>
+                <td colspan="2">30</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Racket sport</td>
+                <td>Tafeltennis</td>
+                <td colspan="2">59</td>
+                <td colspan="2">30</td>
+                <td>89</td>
+            </tr>    <tr>
+                <td></td>
+                <td>Tennis</td>
+                <td colspan="2">159</td>
+                <td colspan="2">130</td>
+                <td>189</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Voetbal</td>
+                <td colspan="2">88</td>
+                <td colspan="2">40</td>
+                <td>128</td>
+            </tr>
+            <tr>
+                <td>Ball sport</td>
+                <td>Basketbal</td>
+                <td colspan="2">60</td>
+                <td colspan="2">40</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Volleybal</td>
+                <td colspan="2">35</td>
+                <td colspan="2">20</td>
+                <td>55</td>
+            </tr>
+        </table>
+    </fieldset>    
+
+    <br><br><br>
+
+    <h2>Opdracht 3-14 eigen tabel</h2>
+    <fieldset style="width: 700px; background-color: rgb(211, 190, 190);">
+        <table style="width: 700px;">
+            <caption>Buurtbarbecue</caption>
+            <thead>          
+                <tr>
+                    <th>Naam</th>
+                    <th>Huisnummer</th>
+                    <th>Telefoon</th>
+                    <th>Lust alles?</th>
+                    <th colspan="2">Speciale wensen</th>
+                    <th>Kan helpen?</th>
+                
+                </tr>
+            </thead>  
+            <tbody>
+                <tr>
+                    <td>Marc Hoogsteden</td>
+                    <td>87</td>
+                    <td>06-12345678</td>
+                    <td>ja</td>
+                    <td colspan="2">vegetarisch</td>
+                    <td>ja</td>
+                </tr> 
+                <tr>
+                    <td>Jan Janssen</td>
+                    <td>0</td>
+                    <td>06-12345678</td>
+                    <td>nee</td>
+                    <td colspan="2"></td>
+                    <td>nee</td>
+                </tr>
+                <tr>
+                    <td>Doe Maar</td>
+                    <td>66</td>
+                    <td>06-12345678</td>
+                    <td>ja</td>
+                    <td colspan="2">Nederwiet</td>
+                    <td>ja</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Joost Prinsen</td>
+                    <td>12</td>
+                    <td>06-12345678</td>
+                    <td>nee</td>
+                    <td colspan="2">Brengt Ben Ali Libi mee</td>
+                    <td>nee</td>
+                </tr> 
+            </tfoot>
+        </table>
+    </fieldset>    
+
+
+
+</body>
+</html>
